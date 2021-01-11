@@ -15,7 +15,7 @@ parse("1542510123") => [ '154.25.10.123', '154.251.0.123',
 Please explain how you would test this algorithm. How does the testing strategy 
 change if this algorithm is only called internally by trusted programmers, versus
 exposing this algorithm to the open web for anyone to call? <br />
-Testing
+# Testing
 - with Trusted programmers would not worry as much about user input like special characters 
 - take a break from working on the code to get into a testing mindset.
 - make a list of happy path solutions, also validate given test cases
@@ -34,7 +34,7 @@ Testing
     - Too short
     - Too long
     - Non digit characters
-
+# Discussion
 Tell us what kind of issues you ran into writing the code and making the tests, and
 discuss how you debugged and resolved the issues. <br />
 Figuring out that I needed to remove the last added portion in order to use the recursive function without getting duplicate entries <br />
